@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.mackenzie.belezalegal.WelcomeFragment"
+        android:label="@string/welcome_fragment_label"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_introductionFragment"
+            app:destination="@id/introductionFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_handoutFragment"
+            app:destination="@id/handoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introductionFragment"
+        android:name="com.mackenzie.belezalegal.IntroductionFragment"
+        android:label="@string/introduction_fragment_label"
+        tools:layout="@layout/fragment_introduction" >
+        <action
+            android:id="@+id/action_introductionFragment_to_consentFragment"
+            app:destination="@id/consentFragment" />
+        <action
+            android:id="@+id/action_introductionFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <action
+            android:id="@+id/action_introductionFragment_to_selfDiagnosisFragment"
+            app:destination="@id/selfDiagnosisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consentFragment"
+        android:name="com.mackenzie.belezalegal.ConsentFragment"
+        android:label="@string/consent_fragment_label"
+        tools:layout="@layout/fragment_consent" >
+        <action
+            android:id="@+id/action_consentFragment_to_termFragment"
+            app:destination="@id/termFragment" />
+        <action
+            android:id="@+id/action_consentFragment_to_question1Fragment"
+            app:destination="@id/question1Fragment" />
+        <action
+            android:id="@+id/action_consentFragment_to_introductionFragment"
+            app:destination="@id/introductionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question1Fragment"
+        android:name="com.mackenzie.belezalegal.Question1Fragment"
+        android:label="@string/question1_fragment_label"
+        tools:layout="@layout/fragment_question1" >
+        <action
+            android:id="@+id/action_question1Fragment_to_question2Fragment"
+            app:destination="@id/question2Fragment" />
+        <action
+            android:id="@+id/action_question1Fragment_to_consentFragment"
+            app:destination="@id/consentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question2Fragment"
+        android:name="com.mackenzie.belezalegal.Question2Fragment"
+        android:label="@string/question2_fragment_label"
+        tools:layout="@layout/fragment_question2" >
+        <action
+            android:id="@+id/action_question2Fragment_to_question3Fragment"
+            app:destination="@id/question3Fragment" />
+        <action
+            android:id="@+id/action_question2Fragment_to_question1Fragment"
+            app:destination="@id/question1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question3Fragment"
+        android:name="com.mackenzie.belezalegal.Question3Fragment"
+        android:label="@string/question3_fragment_label"
+        tools:layout="@layout/fragment_question3" >
+        <action
+            android:id="@+id/action_question3Fragment_to_question4Fragment"
+            app:destination="@id/question4Fragment" />
+        <action
+            android:id="@+id/action_question3Fragment_to_question2Fragment"
+            app:destination="@id/question2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question4Fragment"
+        android:name="com.mackenzie.belezalegal.Question4Fragment"
+        android:label="@string/question4_fragment_label"
+        tools:layout="@layout/fragment_question4" >
+        <action
+            android:id="@+id/action_question4Fragment_to_question5Fragment"
+            app:destination="@id/question5Fragment" />
+        <action
+            android:id="@+id/action_question4Fragment_to_question3Fragment"
+            app:destination="@id/question3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question5Fragment"
+        android:name="com.mackenzie.belezalegal.Question5Fragment"
+        android:label="@string/question5_fragment_label"
+        tools:layout="@layout/fragment_question5" >
+        <action
+            android:id="@+id/action_question5Fragment_to_question6Fragment"
+            app:destination="@id/question6Fragment" />
+        <action
+            android:id="@+id/action_question5Fragment_to_question4Fragment"
+            app:destination="@id/question4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question6Fragment"
+        android:name="com.mackenzie.belezalegal.Question6Fragment"
+        android:label="@string/question6_fragment_label"
+        tools:layout="@layout/fragment_question6" >
+        <action
+            android:id="@+id/action_question6Fragment_to_question7Fragment"
+            app:destination="@id/question7Fragment" />
+        <action
+            android:id="@+id/action_question6Fragment_to_question5Fragment"
+            app:destination="@id/question5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question7Fragment"
+        android:name="com.mackenzie.belezalegal.Question7Fragment"
+        android:label="@string/question7_fragment_label"
+        tools:layout="@layout/fragment_question7" >
+
+        <action
+            android:id="@+id/action_question7Fragment_to_question6Fragment"
+            app:destination="@id/question6Fragment" />
+        <action
+            android:id="@+id/action_question7Fragment_to_question8Fragment"
+            app:destination="@id/question8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question8Fragment"
+        android:name="com.mackenzie.belezalegal.Question8Fragment"
+        android:label="@string/question8_fragment_label"
+        tools:layout="@layout/fragment_question8" >
+        <action
+            android:id="@+id/action_question8Fragment_to_question7Fragment"
+            app:destination="@id/question7Fragment" />
+        <action
+            android:id="@+id/action_question8Fragment_to_question9Fragment"
+            app:destination="@id/question9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question9Fragment"
+        android:name="com.mackenzie.belezalegal.Question9Fragment"
+        android:label="@string/question9_fragment_label"
+        tools:layout="@layout/fragment_question9" >
+        <action
+            android:id="@+id/action_question9Fragment_to_question8Fragment"
+            app:destination="@id/question8Fragment" />
+        <action
+            android:id="@+id/action_question9Fragment_to_question10Fragment"
+            app:destination="@id/question10Fragment" />
+        <action
+            android:id="@+id/action_question9Fragment_to_question11Fragment"
+            app:destination="@id/question11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question10Fragment"
+        android:name="com.mackenzie.belezalegal.Question10Fragment"
+        android:label="@string/question10_fragment_label"
+        tools:layout="@layout/fragment_question10" >
+        <action
+            android:id="@+id/action_question10Fragment_to_question9Fragment"
+            app:destination="@id/question9Fragment" />
+        <action
+            android:id="@+id/action_question10Fragment_to_handoutInformalFragment"
+            app:destination="@id/handoutInformalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question11Fragment"
+        android:name="com.mackenzie.belezalegal.Question11Fragment"
+        android:label="@string/question11_fragment_label"
+        tools:layout="@layout/fragment_question11" >
+        <action
+            android:id="@+id/action_question11Fragment_to_question10Fragment"
+            app:destination="@id/question10Fragment" />
+        <action
+            android:id="@+id/action_question11Fragment_to_question12Fragment"
+            app:destination="@id/question12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question12Fragment"
+        android:name="com.mackenzie.belezalegal.Question12Fragment"
+        android:label="@string/question12_fragment_label"
+        tools:layout="@layout/fragment_question12" >
+        <action
+            android:id="@+id/action_question12Fragment_to_question11Fragment"
+            app:destination="@id/question11Fragment" />
+        <action
+            android:id="@+id/action_question12Fragment_to_question13Fragment"
+            app:destination="@id/question13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question13Fragment"
+        android:name="com.mackenzie.belezalegal.Question13Fragment"
+        android:label="@string/question13_fragment_label"
+        tools:layout="@layout/fragment_question13" >
+        <action
+            android:id="@+id/action_question13Fragment_to_question12Fragment"
+            app:destination="@id/question12Fragment" />
+        <action
+            android:id="@+id/action_question13Fragment_to_question14Fragment"
+            app:destination="@id/question14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question14Fragment"
+        android:name="com.mackenzie.belezalegal.Question14Fragment"
+        android:label="@string/question14_fragment_label"
+        tools:layout="@layout/fragment_question14" >
+        <action
+            android:id="@+id/action_question14Fragment_to_question13Fragment"
+            app:destination="@id/question13Fragment" />
+        <action
+            android:id="@+id/action_question14Fragment_to_question15Fragment"
+            app:destination="@id/question15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question15Fragment"
+        android:name="com.mackenzie.belezalegal.Question15Fragment"
+        android:label="@string/question15_fragment_label"
+        tools:layout="@layout/fragment_question15" >
+        <action
+            android:id="@+id/action_question15Fragment_to_question14Fragment"
+            app:destination="@id/question14Fragment" />
+        <action
+            android:id="@+id/action_question15Fragment_to_question16Fragment"
+            app:destination="@id/question16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question16Fragment"
+        android:name="com.mackenzie.belezalegal.Question16Fragment"
+        android:label="@string/question16_fragment_label"
+        tools:layout="@layout/fragment_question16" >
+        <action
+            android:id="@+id/action_question16Fragment_to_question15Fragment"
+            app:destination="@id/question15Fragment" />
+        <action
+            android:id="@+id/action_question16Fragment_to_question17Fragment"
+            app:destination="@id/question17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question17Fragment"
+        android:name="com.mackenzie.belezalegal.Question17Fragment"
+        android:label="@string/question17_fragment_label"
+        tools:layout="@layout/fragment_question17" >
+        <action
+            android:id="@+id/action_question17Fragment_to_question16Fragment"
+            app:destination="@id/question16Fragment" />
+        <action
+            android:id="@+id/action_question17Fragment_to_question18Fragment"
+            app:destination="@id/question18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question18Fragment"
+        android:name="com.mackenzie.belezalegal.Question18Fragment"
+        android:label="@string/question18_fragment_label"
+        tools:layout="@layout/fragment_question18" >
+        <action
+            android:id="@+id/action_question18Fragment_to_question17Fragment"
+            app:destination="@id/question17Fragment" />
+        <action
+            android:id="@+id/action_question18Fragment_to_question19Fragment"
+            app:destination="@id/question19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question19Fragment"
+        android:name="com.mackenzie.belezalegal.Question19Fragment"
+        android:label="@string/question19_fragment_label"
+        tools:layout="@layout/fragment_question19" >
+        <action
+            android:id="@+id/action_question19Fragment_to_question18Fragment"
+            app:destination="@id/question18Fragment" />
+        <action
+            android:id="@+id/action_question19Fragment_to_question20Fragment"
+            app:destination="@id/question20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question20Fragment"
+        android:name="com.mackenzie.belezalegal.Question20Fragment"
+        android:label="@string/question20_fragment_label"
+        tools:layout="@layout/fragment_question20" >
+        <action
+            android:id="@+id/action_question20Fragment_to_question19Fragment"
+            app:destination="@id/question19Fragment" />
+        <action
+            android:id="@+id/action_question20Fragment_to_question21Fragment"
+            app:destination="@id/question21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question21Fragment"
+        android:name="com.mackenzie.belezalegal.Question21Fragment"
+        android:label="@string/question21_fragment_label"
+        tools:layout="@layout/fragment_question21" >
+        <action
+            android:id="@+id/action_question21Fragment_to_question20Fragment"
+            app:destination="@id/question20Fragment" />
+        <action
+            android:id="@+id/action_question21Fragment_to_question22Fragment"
+            app:destination="@id/question22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question22Fragment"
+        android:name="com.mackenzie.belezalegal.Question22Fragment"
+        android:label="@string/question22_fragment_label"
+        tools:layout="@layout/fragment_question22" >
+        <action
+            android:id="@+id/action_question22Fragment_to_question21Fragment"
+            app:destination="@id/question21Fragment" />
+        <action
+            android:id="@+id/action_question22Fragment_to_question23Fragment"
+            app:destination="@id/question23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question23Fragment"
+        android:name="com.mackenzie.belezalegal.Question23Fragment"
+        android:label="@string/question23_fragment_label"
+        tools:layout="@layout/fragment_question23" >
+        <action
+            android:id="@+id/action_question23Fragment_to_question22Fragment"
+            app:destination="@id/question22Fragment" />
+        <action
+            android:id="@+id/action_question23Fragment_to_question24Fragment"
+            app:destination="@id/question24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question24Fragment"
+        android:name="com.mackenzie.belezalegal.Question24Fragment"
+        android:label="@string/question24_fragment_label"
+        tools:layout="@layout/fragment_question24" >
+        <action
+            android:id="@+id/action_question24Fragment_to_question23Fragment"
+            app:destination="@id/question23Fragment" />
+        <action
+            android:id="@+id/action_question24Fragment_to_question25Fragment"
+            app:destination="@id/question25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question25Fragment"
+        android:name="com.mackenzie.belezalegal.Question25Fragment"
+        android:label="@string/question25_fragment_label"
+        tools:layout="@layout/fragment_question25" >
+        <action
+            android:id="@+id/action_question25Fragment_to_question24Fragment"
+            app:destination="@id/question24Fragment" />
+        <action
+            android:id="@+id/action_question25Fragment_to_question26Fragment"
+            app:destination="@id/question26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question26Fragment"
+        android:name="com.mackenzie.belezalegal.Question26Fragment"
+        android:label="@string/question26_fragment_label"
+        tools:layout="@layout/fragment_question26" >
+        <action
+            android:id="@+id/action_question26Fragment_to_question25Fragment"
+            app:destination="@id/question25Fragment" />
+        <action
+            android:id="@+id/action_question26Fragment_to_selfDiagnosisFragment"
+            app:destination="@id/selfDiagnosisFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/termFragment"
+        android:name="com.mackenzie.belezalegal.TermFragment"
+        android:label="@string/term_fragment_label"
+        tools:layout="@layout/fragment_term" >
+        <action
+            android:id="@+id/action_termFragment_to_consentFragment"
+            app:destination="@id/consentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selfDiagnosisFragment"
+        android:name="com.mackenzie.belezalegal.SelfDiagnosisFragment"
+        android:label="@string/selfdiagnosis_fragment_label"
+        tools:layout="@layout/fragment_selfdiagnosis" >
+        <action
+            android:id="@+id/action_selfDiagnosisFragment_to_handoutFragment2"
+            app:destination="@id/handoutFragment" />
+        <action
+            android:id="@+id/action_selfDiagnosisFragment_to_question26Fragment"
+            app:destination="@id/question26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/handoutFragment"
+        android:name="com.mackenzie.belezalegal.HandoutFragment"
+        android:label="@string/handout_fragment_label"
+        tools:layout="@layout/fragment_handout" >
+        <action
+            android:id="@+id/action_handoutFragment_to_selfdiagnosisFragment"
+            app:destination="@id/selfDiagnosisFragment" />
+        <action
+            android:id="@+id/action_handoutFragment_to_acknowledgementsFragment"
+            app:destination="@id/acknowledgementsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acknowledgementsFragment"
+        android:name="com.mackenzie.belezalegal.AcknowledgementsFragment"
+        android:label="@string/acknowledgements_fragment_label"
+        tools:layout="@layout/fragment_acknowledgements" >
+        <action
+            android:id="@+id/action_acknowledgementsFragment_to_handoutFragment2"
+            app:destination="@id/handoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/handoutInformalFragment"
+        android:name="com.mackenzie.belezalegal.HandoutInformalFragment"
+        android:label="HandoutInformalFragment" >
+        <action
+            android:id="@+id/action_handoutInformalFragment_to_acknowledgementsFragment"
+            app:destination="@id/acknowledgementsFragment" />
+    </fragment>
+
+
+</navigation>

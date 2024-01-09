@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name">Beleza Legal</string>
+    <string name="action_settings">Configuração</string>
+
+    <!--                 Strings used for fragments for navigation                -->
+    <string name="welcome_fragment_label">Boas vindas</string>
+    <string name="introduction_fragment_label">Introdução</string>
+    <string name="consent_fragment_label">Concentimento</string>
+    <string name="question1_fragment_label">Pergunta 1</string>
+    <string name="question2_fragment_label">Pergunta 2</string>
+    <string name="question3_fragment_label">Pergunta 3</string>
+    <string name="question4_fragment_label">Pergunta 4</string>
+    <string name="question5_fragment_label">Pergunta 5</string>
+    <string name="question6_fragment_label">Pergunta 6</string>
+    <string name="question7_fragment_label">Pergunta 7</string>
+    <string name="question8_fragment_label">Pergunta 8</string>
+    <string name="question9_fragment_label">Pergunta 9</string>
+    <string name="question10_fragment_label">Pergunta 10</string>
+    <string name="question11_fragment_label">Pergunta 11</string>
+    <string name="question12_fragment_label">Pergunta 12</string>
+    <string name="question13_fragment_label">Pergunta 13</string>
+    <string name="question14_fragment_label">Pergunta 14</string>
+    <string name="question15_fragment_label">Pergunta 15</string>
+    <string name="question16_fragment_label">Pergunta 16</string>
+    <string name="question17_fragment_label">Pergunta 17</string>
+    <string name="question18_fragment_label">Pergunta 18</string>
+    <string name="question19_fragment_label">Pergunta 19</string>
+    <string name="question20_fragment_label">Pergunta 20</string>
+    <string name="question21_fragment_label">Pergunta 21</string>
+    <string name="question22_fragment_label">Pergunta 22</string>
+    <string name="question23_fragment_label">Pergunta 23</string>
+    <string name="question24_fragment_label">Pergunta 24</string>
+    <string name="question25_fragment_label">Pergunta 25</string>
+    <string name="question26_fragment_label">Pergunta 26</string>
+    <string name="term_fragment_label">Termo de consentimento</string>
+    <string name="selfdiagnosis_fragment_label">Autodiagnostico</string>
+    <string name="handout_fragment_label">Cartilha</string>
+    <string name="dissent_fragment_label">Sem concenso</string>
+    <string name="informal_fragment_label">Informal</string>
+    <string name="acknowledgements_fragment_label">Agradecimento</string>
+
+    <!--                 Strings used for consent view              -->
+    <string name="consent_consenttitle">Termo de Consentimento Livre e Esclarecido </string>
+    <string name="consent_text">Os Termos de Consentimento Livre e Esclarecido (TCLE) têm por
+        finalidade possibilitar, aos sujeitos da pesquisa, o mais amplo esclarecimento sobre a
+        investigação a ser realizada, para que a sua manifestação de vontade no sentido de
+        participar (ou não), seja efetivamente livre e consciente.</string>
+    <string name="consent_1">Possuo 18 anos completo no momento da pesquisa</string>
+    <string name="consent_2">Estou sendo convidado e participo voluntariamente da pesquisa</string>
+    <string name="consent_3">Estou ciente das informações indicas acima e que as respostas coletadas
+        serão disponibilizadas tão somente para a pesquisa</string>
+    <string name="Dissent">Você precisa estar de acordo com todos os items para continuar.</string>
+
+    <!--                 Strings used for acknowledge view              -->
+    <string name="acknowledge_text">Empreendedor da Beleza \n
+    Queremos agradecer por sua participação. \n
+    Nosso compromisso é aprimorar e divulgar as legislações vigentes, visando proporcionar soluções
+        efetivas e sustentáveis para o setor da beleza. \n
+    Contamos com o seu apoio para promover um ambiente regulatório mais favorável e dinâmico. \n
+    Muito Obrigada, Beleza Legal! </string>
+
+
+    <!--
+    <string name=""></string>
+    <string name="_fragment_label"></string>
+    <string name="_fragment_label"></string>
+    -->
+    <!--                 Strings used for questions view              -->
+    <string name="email">Email</string>
+    <string name="question1">Você é:</string>
+    <string name="question2">Qual a sua principal atividade como Profissional de Beleza?</string>
+    <string name="question3">Sexo</string>
+    <string name="question4">Escolaridade</string>
+    <string name="question5">Faixa Etária</string>
+    <string name="question6">Sua cor ou raça é:</string>
+    <string name="question7">Qual o seu nível de conhecimento da Lei do Microeemprendedor individual
+        (MEI)?</string>
+    <string name="question8">Qual o seu nível de conhecimento da Lei Salão Parceiro?</string>
+    <string name="question9">Você é formalizado como Microempreendedor Individual (MEI)?</string>
+    <string name="question10">Por que você optou por não se formalizar?</string>
+    <string name="question11">Como empreendedor da beleza, qual é a sua percepção em relação à
+        formalização do seu negócio?</string>
+    <string name="question12">Quem é responsável pelo recolhimento do DAS (Documento de Arrecadação
+        do Simples Nacional) no seu contrato de parceria com o salão de beleza?</string>
+    <string name="question13">Como MEI profissional da beleza que trabalha em um salão de beleza,
+        foi elaborado o contrato de parceria com o salão?</string>
+    <string name="question14">Quando da elaboração do contrato de parceria, qual foi o impacto
+        percebido por você em relação à possibilidade de auxiliar na definição dos direitos e
+        deveres do acordo, bem como trabalhar em outro salão de beleza e ter seus próprios
+        clientes?</string>
+    <string name="question15">Apesar de ter um contrato de parceria, você executa atividades
+        diferentes daquelas especificadas no contrato? Por exemplo, se você é contratado como
+        manicure, mas acaba realizando atividades de recepcionista.</string>
+    <string name="question16">Quais são os benefícios proporcionados pela lei do salão parceiro aos
+        profissionais de beleza e que você tem conhecimento?</string>
+    <string name="question17">O contrato de parceria entre o salão de beleza e o profissional foi
+        homologado no sindicato profissional ou na Superintendência Regional do Trabalho do
+        respectivo Estado, perante duas testemunhas?</string>
+    <string name="question18">Você, como profissional da beleza, possui conhecimento das diferenças
+        entre um profissional parceiro e um profissional empregado?</string>
+    <string name="question19">Frequentemente você recolhe o DAS:</string>
+    <string name="question20">Anualmente o MEI precisa entregar a Declaração Anual, que é uma
+        obrigação do empreendedor. Você:</string>
+    <string name="question21">Você faz o controle e/ou mantém o Relatório Mensal de Receitas Brutas
+        para comprovação das receitas, anexando todas as notas fiscais recebidas e
+        emitidas?</string>
+    <string name="question22">Você tem uma conta bancária específica para o seu MEI? Qual a
+        importância de separar as finanças da pessoa jurídica e da pessoa física para o profissional
+        parceiro?</string>
+    <string name="question23">Você como MEI, sabe distinguir faturamento de lucro?</string>
+    <string name="question24">Você emite nota fiscal ao salão de beleza pelo serviço prestado, de
+        acordo com os valores a receber da sua comissão?</string>
+    <string name="question25">A Lei do Salão Parceiro prevê que todo pagamento pelos serviços
+        prestados deve ser feito diretamente ao salão de beleza, e não diretamente a você como
+        profissional parceiro. Essa condição está de acordo com o que o salão de beleza
+        faz?</string>
+    <string name="question26">Você como profissional MEI tem buscado cursos de formação e
+        capacitação para aprimorar seus conhecimentos em sua área de atuação e gestão do
+        negócio?</string>
+
+    <!--                 Strings used for acknowledge view              -->
+    <string-array name="answer1">
+        <item>Profissional da beleza que trabalha em um salão de beleza</item>
+        <item>Profissional da beleza que tem seu próprio salão</item>
+        <item>Profissional da beleza que trabalha em casa e/ou a domicílio</item>
+        <item>Estudante do ramo da beleza</item>
+        <item>Dono de salão de beleza</item>
+    </string-array>
+    <string-array name="answer2">
+        <item>Cabeleireiro (a)</item>
+        <item>Manicure / pedicure</item>
+        <item>Depilador (a)</item>
+        <item>Barbeiro</item>
+        <item>Maquiador (a)</item>
+        <item>Esteticista</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="answer3">
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
+    <string-array name="answer4">
+        <item>Fundamental incompleto</item>
+        <item>Fundamental completo</item>
+        <item>Médio incompleto</item>
+        <item>Médio completo</item>
+        <item>Superior incompleto</item>
+        <item>Superior completo</item>
+        <item>Pós-graduado/ mestrado</item>
+    </string-array>
+    <string-array name="answer5">
+        <item>Até 24 anos</item>
+        <item>De 25 até 35 anos</item>
+        <item>De 36 até 45 anos</item>
+        <item>De 46 até 55 anos</item>
+        <item>De 56 até 65 anos</item>
+        <item>De 56 até 65 anos</item>
+        <item>Acima de 65 anos</item>
+        <item>Não quero informar</item>
+    </string-array>
+    <string-array name="answer6">
+        <item>Branca</item>
+        <item>Preta</item>
+        <item>Amarela (oriental/asiático)</item>
+        <item>Parda</item>
+        <item>Indígena</item>
+        <item>Não quero informar</item>
+    </string-array>
+    <string-array name="answer7">
+        <item>Conheço e aplico</item>
+        <item>Conheço e aplico em parte</item>
+        <item>Conheço, mas aplico pouco</item>
+        <item>Conheço, mas não aplico</item>
+        <item>Não conheço</item>
+    </string-array>
+    <string-array name="answer8">
+        <item>Conheço e aplico</item>
+        <item>Conheço e aplico em parte</item>
+        <item>Conheço, mas aplico pouco</item>
+        <item>Conheço, mas não aplico</item>
+        <item>Não conheço</item>
+    </string-array>
+    <string-array name="answer9">
+        <item>Sim </item>
+        <item>Não</item>
+        <item>Sou formalizo em outra categoria (por exemplo, empresa do Simples Nacional)</item>
+    </string-array>
+    <string-array name="answer10">
+        <item>Sempre trabalhei assim e não vejo benefício em me formalização</item>
+        <item>Acredito que ganho mais sendo informal.</item>
+        <item>A legislação é confusa e de difícil aplicação.</item>
+        <item>Os salões de beleza não adotam a formalização por completo e, por esse motivo, prefiro não me formalizar.</item>
+        <item>Estou estudando ainda, só vou me formalizar depois</item>
+        <item>Outros motivos pessoais que me levaram a não buscar a formalização.</item>
+    </string-array>
+    <string-array name="answer11">
+        <item>Trouxe benefícios e vantagens significativas.</item>
+        <item>Foi positivo, mas ainda não explorei totalmente seus benefícios.</item>
+        <item>Não tenho uma opinião clara sobre a formalização do empreendedor da beleza.</item>
+        <item>Me formalizei porque o salão de beleza exigiu a documentação de MEI</item>
+        <item>Não tenho uma percepção clara ou minha percepção é indefinida, o que pode resultar em situações de risco ou prejuízo para o meu negócio.</item>
+    </string-array>
+    <string-array name="answer12">
+        <item>O salão de beleza desconta da minha comissão, sendo responsável pelo recolhimento</item>
+        <item>Eu sou responsável pelo recolhimento do DAS.</item>
+        <item>O recolhimento do DAS é compartilhado entre mim e o salão de beleza</item>
+        <item>Não tenho certeza ou não sei quem é responsável pelo recolhimento do DAS</item>
+        <item>Apesar de trabalhar em salão de beleza, não possuo contrato de parceria.</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria e por isso sou responsável pelo recolhimento do DAS.</item>
+    </string-array>
+    <string-array name="answer13">
+        <item>Sim, foi elaborado e assinado um contrato de parceria entre mim e o salão</item>
+        <item>Sim, um contrato de parceria foi elaborado e assinado, mas pode haver algumas divergências</item>
+        <item>Um contrato de parceria foi elaborado, mas não foi formalmente assinado ou pode apresentar deficiências em relação à conformidade com a Lei Salão Parceiro.</item>
+        <item>Não foi elaborado um contrato de parceria com o salão, apesar da obrigatoriedade prevista na Lei Salão Parceiro.</item>
+        <item>Apesar de trabalhar em salão de beleza, não tenho conhecimento sobre a necessidade de um contrato de parceria com o salão</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria</item>
+    </string-array>
+    <string-array name="answer14">
+        <item>Tive liberdade para auxiliar na definição dos direitos e deveres do contrato, além de poder trabalhar em outros salões de beleza e atender meus próprios clientes</item>
+        <item>Tive alguma participação na definição dos direitos e deveres do contrato, mas com algumas restrições para trabalhar em outros salões de beleza e ter meus próprios clientes</item>
+        <item>Minha participação na definição dos direitos e deveres do contrato foi limitada e não possuo permissão para trabalhar em outros salões de beleza ou ter meus próprios clientes</item>
+        <item>Não tive oportunidade de participar da elaboração do contrato e não possuo a liberdade de trabalhar em outros salões de beleza ou ter meus próprios clientes</item>
+        <item>Apesar de trabalhar em salão de beleza, não possuo contrato de parceria com um salão de beleza</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria</item>
+    </string-array>
+    <string-array name="answer15">
+        <item>Não, minhas atividades estão alinhadas com as especificadas no contrato de parceria.</item>
+        <item>Ocorrem pequenas diferenças entre as atividades que executo e as especificadas no contrato de parceria, mas não são significativas.</item>
+        <item>Em certas ocasiões, executo atividades diferentes das estabelecidas no contrato de parceria, mas isso ocorre ocasionalmente ou em situações pontuais.</item>
+        <item>Há uma divergência notável entre as atividades que executo e as especificadas no contrato de parceria, afetando regularmente minhas responsabilidades.</item>
+        <item>Apesar de trabalhar em salão, não se aplica, pois não possuo contrato de parceria com um salão de beleza</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria</item>
+    </string-array>
+    <string-array name="answer16">
+        <item>A lei do salão parceiro oferece maior segurança jurídica fiscal e trabalhista aos profissionais de beleza, assegurando-lhes direitos e regulamentando sua relação de trabalho com os salões.</item>
+        <item>A lei do salão parceiro garante garantias previdenciárias ao profissional MEI, proporcionando-lhe proteção social e benefícios previdenciários.</item>
+        <item>A lei do salão parceiro contribui para o aumento da lucratividade dos profissionais de beleza, ao estabelecer regras claras e transparentes sobre a divisão de comissões e remuneração.</item>
+        <item>A lei do salão parceiro pode oferecer algumas garantias previdenciárias ao profissional MEI, porém, com limitações e restrições em relação a outros regimes de trabalho.</item>
+        <item>A lei do salão parceiro não proporciona garantias previdenciárias, segurança jurídica fiscal e trabalhista, nem aumento da lucratividade aos profissionais de beleza.</item>
+        <item>Não conheço a lei, não consigo opinar</item>
+        <item>Não utilizo a lei, trabalho por conta própria</item>
+    </string-array>
+    <string-array name="answer17">
+        <item>Sim, o contrato de parceria foi devidamente homologado perante o sindicato profissional ou na Superintendência Regional do Trabalho, conforme exigido pela Lei Salão Parceiro.</item>
+        <item>Sim, o contrato de parceria foi homologado, mas pode haver algumas divergências ou falta de conformidade com os requisitos da homologação previstos na Lei Salão Parceiro.</item>
+        <item>O contrato de parceria foi elaborado, mas não foi homologado perante o sindicato profissional ou na Superintendência Regional do Trabalho, conforme estabelecido pela Lei Salão Parceiro.</item>
+        <item>Não foi feita a homologação do contrato de parceria, mesmo que seja uma exigência legal de acordo com a Lei Salão Parceiro.</item>
+        <item>Apesar de trabalhar em salão, não se aplica, pois não possuo contrato de parceria com um salão de beleza</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria</item>
+    </string-array>
+    <string-array name="answer18">
+        <item>Sim, tenho pleno conhecimento das diferenças entre um profissional parceiro e um profissional empregado.</item>
+        <item>Sim, tenho conhecimento em parte das diferenças entre um profissional parceiro e um profissional empregado.</item>
+        <item>Tenho conhecimento limitado das diferenças entre um profissional parceiro e um profissional empregado.</item>
+        <item>Tenho pouca ou nenhuma informação sobre as diferenças entre um profissional parceiro e um profissional empregado.</item>
+        <item>Não tenho conhecimento das diferenças entre um profissional parceiro e um profissional empregado.</item>
+    </string-array>
+    <string-array name="answer19">
+        <item>Sempre recolho o DAS dentro do prazo estabelecido.</item>
+        <item>Na maioria das vezes, recolho o DAS dentro do prazo estabelecido</item>
+        <item>Às vezes, recolho o DAS dentro do prazo estabelecido.</item>
+        <item>Com certa frequência, recolho o DAS com atraso.</item>
+        <item>Não tenho o hábito de recolher regularmente o DAS ou não o recolho.</item>
+    </string-array>
+    <string-array name="answer20">
+        <item>Sempre entrega a Declaração Anual dentro do prazo estabelecido</item>
+        <item>Entrega a Declaração Anual apenas quando lembrado ou solicitado.</item>
+        <item>Entrega a Declaração Anual, mas com atraso.</item>
+        <item>Não entrega a Declaração Anual, mas tem conhecimento da sua obrigação.</item>
+        <item>Não entrega a Declaração Anual e desconhece a sua obrigação.</item>
+    </string-array>
+    <string-array name="answer21">
+        <item>Sim, faço o controle regularmente e mantenho o Relatório Mensal de Receitas Brutas atualizado, anexando todas as notas fiscais recebidas e emitidas.</item>
+        <item>Na maioria das vezes, faço o controle e mantenho o Relatório Mensal de Receitas Brutas, anexando a maioria das notas fiscais recebidas e emitidas.</item>
+        <item>Às vezes, faço o controle e mantenho o Relatório Mensal de Receitas Brutas, mas nem sempre anexo todas as notas fiscais recebidas e emitidas.</item>
+        <item>Com certa frequência, não faço o controle ou não mantenho o Relatório Mensal de Receitas Brutas com todas as notas fiscais recebidas e emitidas.</item>
+        <item>Não faço o controle e não mantenho o Relatório Mensal de Receitas Brutas com as notas fiscais recebidas e emitidas.</item>
+    </string-array>
+    <string-array name="answer22">
+        <item>Sim, possuo uma conta jurídica para separar as finanças. A separação é importante para manter a transparência e facilitar a gestão financeira, garantindo o controle adequado dos recursos da empresa e da minha vida pessoal.</item>
+        <item>Não possuo uma conta jurídica específica, mas entendo a importância de separar as finanças. Isso evita confusões e permite um melhor planejamento financeiro, além de facilitar a prestação de contas ao Fisco.</item>
+        <item>Não tenho uma conta jurídica, mas considero relevante separar as finanças. Dessa forma, é possível manter um controle mais preciso dos ganhos e gastos relacionados ao meu trabalho como profissional parceiro.</item>
+        <item>Não tenho uma conta jurídica e nunca considerei a separação das finanças. No entanto, entendo que isso pode trazer benefícios, como a clareza na contabilidade e a facilitação do cumprimento das obrigações fiscais.</item>
+        <item>Não possuo uma conta jurídica e não vejo necessidade em separar as finanças. Acredito que posso administrar meus recursos de forma integrada, sem causar problemas ou complicações futuras.</item>
+    </string-array>
+    <string-array name="answer23">
+        <item>Sim, como MEI, eu entendo a diferença entre faturamento e lucro e aplico corretamente a legislação vigente.</item>
+        <item>Sim, eu conheço parte da legislação e consigo distinguir faturamento de lucro na maioria das situações.</item>
+        <item>Sim, tenho algum conhecimento da legislação, mas aplico apenas uma parte dela para diferenciar faturamento de lucro.</item>
+        <item>Sim, eu conheço a legislação, mas aplico pouco, o que pode afetar minha gestão financeira.</item>
+        <item>Infelizmente, não conheço a legislação vigente e não consigo distinguir faturamento de lucro. Isso pode ter consequências graves para meu negócio.</item>
+    </string-array>
+    <string-array name="answer24">
+        <item>Sim, sempre emito nota fiscal ao salão de beleza de acordo com os valores a receber da minha comissão.</item>
+        <item>Na maioria das vezes, emito nota fiscal ao salão de beleza de acordo com os valores a receber da minha comissão, mas pode ocorrer exceções ocasionais.</item>
+        <item>Emito nota fiscal ao salão de beleza de acordo com os valores a receber da minha comissão em algumas situações específicas, mas não de forma consistente.</item>
+        <item>Raramente emito nota fiscal ao salão de beleza de acordo com os valores a receber da minha comissão.</item>
+        <item>Apesar de trabalhar em um salão, não emito nota fiscal ao salão de beleza</item>
+        <item>Não trabalho em salão de beleza, trabalho por conta própria, por isso não emito nota fiscal ao salão</item>
+    </string-array>
+    <string-array name="answer25">
+        <item>Sim, o salão de beleza segue essa condição e todos os pagamentos são feitos diretamente a eles</item>
+        <item>Sim, na maioria das vezes o salão de beleza cumpre essa condição, mas pode haver exceções</item>
+        <item>Ás vezes eu recebo, ás vezes o salão recebe.</item>
+        <item>Não, o salão de beleza não segue essa condição e os pagamentos são feitos diretamente a mim como profissional parceiro</item>
+        <item>Apesar de trabalhar no salão, todos os valores são pagos diretamente a mim, inclusive possuo máquina de débito/crédito</item>
+        <item>Trabalho por conta própria e por isso recebo direto</item>
+    </string-array>
+    <string-array name="answer26">
+        <item>Sim, tenho buscado constantemente cursos de formação e capacitação na área da gestão</item>
+        <item>Sim, tenho participado ocasionalmente de cursos de formação e capacitação na área da gestão</item>
+        <item>Não tenho buscado cursos de formação e capacitação na área da gestão, mas reconheço a importância</item>
+        <item>Não tenho buscado cursos de formação e capacitação na área da gestão e não vejo necessidade</item>
+        <item>Não vejo relevância em buscar cursos de formação e capacitação na área da gestão</item>
+    </string-array>
+
+
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+    <string name="finish">Fechar</string>
+
+
+    <string name="welcome_fragment">""</string>
+    <string name="introduction_fragment">"Prezado Profissional da Beleza, é um prazer tê-lo aqui!</string>
+
+    <string name="introduction_text"> Este aplicativo foi desenvolvido com o propósito de catalogar
+        os riscos pertinentes à Lei do MEI e à Lei do Salão Parceiro que podem afetar o seu negócio. \n
+        Ao responder às questões de maneira precisa, ao final, você receberá um inventário de riscos
+        e uma cartilha de plano de ação, ambos em formato PDF. Essa cartilha fornecerá sugestões
+        práticas para corrigir os riscos identificados. \n
+    Além disso, você tem a opção de gerar esses relatórios e se direcionar ao NAF da Receita
+        Federal, à Prefeitura da sua cidade ou ao SEBRAE. Essas instituições estarão disponíveis para
+        auxiliá-lo na compreensão e resolução dos riscos apontados. \n
+    Nosso objetivo é apoiar o seu sucesso no setor da beleza"</string>
+
+    <string name="consent_fragment">""</string>
+    <string name="question1_fragment">""</string>
+    <string name="question2_fragment">""</string>
+    <string name="question3_fragment">""</string>
+    <string name="question4_fragment">""</string>
+    <string name="return1_fragment">""</string>
+    <string name="return2_fragment">""</string>
+    <string name="return3_fragment">""</string>
+
+    <string name="required_text">Required</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+
+    <string name="selfdiagnosis_row1">Pergunta</string>
+    <string name="selfdiagnosis_row2">Pontuação de Risco</string>
+    <string name="selfdiagnosis_row3">Indicador</string>
+
+    <string name="term_text">Termo de Consentimento Livre e Esclarecido \n
+Título do Projeto de pesquisa: <b> INVENTÁRIO DE RISCO E CARTILHA DE PLANO DE AÇÃO PARA EMPREENDIMENTOS
+            DE PEQUENO PORTE DO RAMO DA BELEZA </b> \n\n\n
+
+        <b>Pesquisador Responsável:</b> Erika Borges Ferreira - erika.ferreira@mackenzie.br \n\n
+
+<b>1.Introdução:</b> Você está sendo convidado(a) a participar de uma pesquisa intitulada "Inventário de
+        Risco e Cartilha de Plano de Ação para Empreendimentos de Pequeno Porte do Ramo da Beleza",
+        conduzida por Erika Borges Ferreira, doutoranda da Universidade Presbiteriana Mackenzie.
+        Este documento tem como objetivo fornecer informações detalhadas sobre a pesquisa e obter
+        o seu consentimento livre e esclarecido para a suaparticipação. \n\n
+
+<b>2.Descrição da Pesquisa:</b> Esta pesquisa tem como objetivo avaliar os riscos associados aos
+        empreendimentos de pequeno porte do ramo da beleza, bem como desenvolver uma cartilha de
+        plano de ação para mitigar esses riscos. Os participantes desta pesquisa serão profissionais
+        do ramo da beleza, incluindo cabeleireiros, esteticistas, manicures, e outros profissionais
+        envolvidos no setor. \n\n
+
+<b>Observação:</b> O risco que se deseja abordar nessa pesquisa é a possibilidade de enfrentar problemas
+legais e financeiros devido a questões de impostos e regulamentações específicas para profissionais
+        do rama da beleza. De forma resumida, é o risco de não cumprir as regras fiscais e sofrer
+        consequências negativas. \n\n
+
+<b>3.Procedimentos:</b> Se você concordar em participar, você será solicitado a responder a questionários,
+        participar de entrevistas ou grupos de discussão, e fornecer informações relacionadas ao seu
+        empreendimento no ramo da beleza. Suas respostas serão confidenciais e utilizadas apenas
+        para fins de pesquisa. \n\n
+
+<b>4.Benefícios da Participação:</b> Ao participar desta pesquisa, você contribuirá para o desenvolvimento
+        de estratégias de gestão de risco mais eficazes para os empreendimentos do ramo da beleza,
+        o que pode beneficiar toda a comunidade profissional dessa área. \n\n
+
+<b>5.Confidencialidade:</b> Todas as informações coletadas durante esta pesquisa serão mantidas
+        estritamente confidenciais. Os resultados serão apresentados de forma agregada, de modo que
+        nenhum participante individual possa ser identificado. \n\n
+
+<b>6. Participação Voluntária:</b> Sua participação nesta pesquisa é completamente voluntária. Você tem o
+        direito de recusar-se a participar ou retirar-se a qualquer momento, sem penalidades ou
+        consequências negativas. \n
+
+<b>Contato:</b> Se você tiver dúvidas sobre a pesquisa ou desejar mais informações, entre em
+        contato com Erika Borges Ferreira pelo seguinte endereço de
+        e-mail: erika.ferreira@mackenzie.br </string>
+</resources>
